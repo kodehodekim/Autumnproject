@@ -12,82 +12,87 @@ html {
 footer {
   background-color: #282e34;
   color: #ddd;
+  font-size: 10px;
   font-family: "Iceberg", cursive;
-  margin: 0 auto;
   text-align: center;
+  padding: 30px 0 20px 0;
 }
 
-.pimg1,
-.pimg2,
-.pimg3,
-.pimg4,
-.pimg5,
-.pimg6,
-.pimg7,
-.pimg8,
-.pimg9 {
+a {
+  color: #fff;
+}
+
+.planet1,
+.planet2,
+.planet3,
+.planet4,
+.planet5,
+.planet6,
+.planet7,
+.planet8,
+.planet9 {
   position: relative;
-  opacity: 0.85;
+  opacity: 0.9;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.pimg1 {
+.planet1 {
   background-image: url("img/thesun-unsplash.jpg");
   min-height: 100%;
 }
 
-.pimg2 {
+.planet2 {
   background-image: url("img/mercury-unsplash.jpg");
   min-height: 500px;
 }
 
-.pimg3 {
+.planet3 {
   background-image: url("img/Venus-Wikipedia.png");
   min-height: 500px;
 }
 
-.pimg4 {
+.planet4 {
   background-image: url("img/earth-unsplash.jpg");
   min-height: 500px;
 }
 
-.pimg5 {
+.planet5 {
   background-image: url("img/mars-unsplash.jpg");
   min-height: 500px;
 }
 
-.pimg6 {
+.planet6 {
   background-image: url("img/jupiter-wikipedia.jpg");
   min-height: 500px;
 }
 
-.pimg7 {
+.planet7 {
   background-image: url("img/saturn-unsplash.jpg");
   min-height: 500px;
 }
 
-.pimg8 {
+.planet8 {
   background-image: url("img/Uranus-Nasa-Wikipedia.jpg");
   min-height: 500px;
 }
 
-.pimg9 {
+.planet9 {
   background-image: url("img/nuptun-unsplash.jpg");
   min-height: 500px;
 }
 
 .section {
   text-align: center;
-  padding: 25px 60px;
+  padding: 15px 55px;
 }
 
 .section-dark {
-  background-color: #282e34;
+  background-color: #3f3f3f;
   color: #ddd;
-  margin: auto;
+  margin: -10px;
   line-height: 1.1;
   font-style: italic;
 }
@@ -105,11 +110,10 @@ footer {
 }
 
 .ptext .border {
-  background-color: #111;
   color: #fff;
   padding: 20px;
-  font-family: "Space Grotesk";
-  font-weight: 600;
+  font-family: "Iceberg", cursive;
+  font-weight: 400;
   font-size: 30px;
 }
 
@@ -118,15 +122,15 @@ footer {
 }
 
 @media (max-width: 568px) {
-  .pimg1,
-  .pimg2,
-  .pimg3,
-  .pimg4,
-  .pimg5,
-  .pimg6,
-  .pimg7,
-  .pimg8,
-  .pimg9 {
+  .planet1,
+  .planet2,
+  .planet3,
+  .planet4,
+  .planet5,
+  .planet6,
+  .planet7,
+  .planet8,
+  .planet9 {
     background-attachment: scroll;
   }
 }
