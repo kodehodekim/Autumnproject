@@ -10,12 +10,14 @@ html {
 }
 
 footer {
-  background-color: #282e34;
+  background-color: #3f3f3f;
+  float: bottom;
+  border-top: 1px solid #00000054;
   color: #ddd;
+  height: 60px;
   font-size: 10px;
   font-family: "Iceberg", cursive;
   text-align: center;
-  padding: 30px 0 20px 0;
 }
 
 a {
