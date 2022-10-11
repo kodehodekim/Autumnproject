@@ -16,7 +16,8 @@ html {
 .pimg5,
 .pimg6,
 .pimg7,
-.pimg8 {
+.pimg8,
+.pimg9 {
   position: relative;
   opacity: 0.85;
   background-position: center;
@@ -51,7 +52,7 @@ html {
 }
 
 .pimg6 {
-  background-image: url("img/jupiter.jpg");
+  background-image: url("img/jupiter-wikipedia.jpg");
   min-height: 500px;
 }
 
@@ -66,7 +67,7 @@ html {
 }
 
 .pimg9 {
-  background-image: url("img/Uranus-Nasa-Wikipedia.jpg");
+  background-image: url("img/nuptun-unsplash.jpg");
   min-height: 500px;
 }
 
@@ -99,7 +100,7 @@ html {
   background-color: #111;
   color: #fff;
   padding: 20px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Grotesk";
   font-weight: 600;
   font-size: 30px;
 }
