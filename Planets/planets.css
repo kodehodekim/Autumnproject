@@ -4,7 +4,6 @@ html {
   margin: 0;
   font-size: 16px;
   font-family: "Iceberg", cursive;
-  font-weight: 400;
   line-height: 1.8em;
   color: #666;
 }
@@ -23,7 +22,7 @@ footer {
 a {
   color: #fff;
 }
-
+/* Settings for all parallax images */
 .planet1,
 .planet2,
 .planet3,
@@ -41,6 +40,7 @@ a {
   background-attachment: fixed;
 }
 
+/* Settings for individial parallax images */
 .planet1 {
   background-image: url("img/thesun-unsplash.jpg");
   min-height: 100%;
@@ -86,12 +86,10 @@ a {
   min-height: 500px;
 }
 
+/* Text section */
 .section {
   text-align: center;
   padding: 15px 55px;
-}
-
-.section-dark {
   background-color: #3f3f3f;
   color: #ddd;
   margin: -10px;
@@ -99,6 +97,7 @@ a {
   font-style: italic;
 }
 
+/* Header text for images */
 .ptext {
   position: absolute;
   top: 50%;
@@ -111,18 +110,21 @@ a {
   text-shadow: 2px 2px #282e34;
 }
 
+/* More header text on images */
 .ptext .border {
   color: #fff;
   padding: 20px;
   font-family: "Iceberg", cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 50px;
+  text-shadow: 3px 4px black;
 }
 
+/* transparant border around the text paragraphs */
 .ptext .border.trans {
   background-color: transparent;
 }
-
+/* max width on images */
 @media (max-width: 568px) {
   .planet1,
   .planet2,
