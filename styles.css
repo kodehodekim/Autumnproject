@@ -1,9 +1,11 @@
 body {
   background-image: url("Images/image1final.jpg");
-  width: 1440px;
-  height: 1024px;
-  background-size: cover;
+
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
+
 .navigationContainer {
   display: flex;
   height: 50px;
@@ -106,16 +108,152 @@ a {
   margin-top: 15px;
   margin-left: 400px;
   margin-right: 300px;
-  margin-bottom: 700px;
+  margin-bottom: 100px;
   color: white;
   font-family: "Iceberg", cursive;
   font-family: "Iceland", cursive;
 }
 .explore {
+  position: relative;
   display: flex;
+  background-color: transparent;
+  margin: auto;
+  margin-left: 400px;
+  margin-top: 200px;
 }
 img {
   height: 100px;
   width: 100px;
-  background-color: white;
+
+  background-color: transparent;
 }
+.pre {
+  height: 15px;
+  width: 15px;
+}
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#btn1 {
+  margin-left: 200px;
+  z-index: 10;
+}
+#btn2 {
+  margin-right: 200px;
+  z-index: 10;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(200px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+}
+@keyframes displayrev {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 200px;
+  /* margin-top: 15vh;*/
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin: auto;
+  margin-left: 0px;
+  margin-top: 100px;
+  /*border: 1px solid white;*/
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  /*animation: display 10s infinite;*/
+}
+
+/*#img1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display1 10s infinite;
+}
+#img2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display2 10s infinite;
+  animation-delay: 2s;
+}*/
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+/*<div class="pic-ctn">
+    <img src="https://picsum.photos/200/300?t=1" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=4" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=5" alt="" class="pic">
+  </div>*/
