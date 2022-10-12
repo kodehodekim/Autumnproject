@@ -22,16 +22,22 @@
         <p class="p-menu"></p>
 
         <div class="dropdown-content">
-          <li class="li-menu"><a href="#">Link 1</a></li>
-          <li class="li-menu"><a href="#">Link 2</a></li>
-          <li class="li-menu"><a href="#">Link 3</a></li>
+          <li class="li-menu"><a href="planets.html#sun">Sun</a></li>
+          <li class="li-menu"><a href="planets.html#mercury">Mercury</a></li>
+          <li class="li-menu"><a href="planets.html#venus">Venus</a></li>
+          <li class="li-menu"><a href="planets.html#earth">Earth</a></li>
+          <li class="li-menu"><a href="planets.html#mars">Mars</a></li>
+          <li class="li-menu"><a href="planets.html#jupiter">Jupiter</a></li>
+          <li class="li-menu"><a href="planets.html#saturn">Saturn</a></li>
+          <li class="li-menu"><a href="planets.html#uranus">Uranus</a></li>
+          <li class="li-menu"><a href="planets.html#neptune">Neptune</a></li>
         </div>
       </div>
 
       <ul class="navigation">
-        <li><a href="#About">Explore</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#kodeHode">KodeHode</a></li>
+        <li><a href="planets.html">Explore</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="https://jobloop.no/kodehode-modellen">KodeHode</a></li>
       </ul>
     </div>
     <div>
@@ -45,14 +51,39 @@
       <button id="btn1" onclick="callrevanimation()">
         <img src="Images/previous (1) - Copy.png" class="pre" />
       </button>
-      <img id="img1" src="Images/earth.png" alt="" class="explore-img" />
-      <img id="img2" src="Images/saturn.png" alt="" class="explore-img" />
+      <img
+        id="img1"
+        src="Images/earth.png"
+        alt=""
+        onclick="showEarth()"
+        class="explore-img"
+      />
+      <img
+        id="img2"
+        src="Images/saturn.png"
+        onclick="showSaturn()"
+        alt=""
+        class="explore-img"
+      />
       <img id="img3" src="Images/moon.png" alt="" class="explore-img" />
-      <img id="img4" src="Images/sun.png" alt="" class="explore-img" />
-      <img id="img5" src="Images/marsnew.png" alt="" class="explore-img" />
+      <img
+        id="img4"
+        src="Images/sun.png"
+        alt=""
+        onclick="showSun()"
+        class="explore-img"
+      />
+      <img
+        id="img5"
+        src="Images/marsnew.png"
+        onclick="showMars()"
+        alt=""
+        class="explore-img"
+      />
       <img
         id="img6"
         src="Images/jupiter-wikipedia-removebg-preview.png"
+        onclick="showJupiter()"
         alt=""
         class="explore-img"
       />
@@ -60,13 +91,16 @@
         id="img7"
         src="Images/mercury-unsplash-removebg-preview.png"
         alt=""
+        onclick="showMercury()"
         class="explore-img"
       />
+
       <img id="img8" src="Images/venus.png" alt="" class="explore-img" />
       <img
         id="img9"
         src="Images/nuptun-unsplash-removebg-preview.png"
         alt=""
+        onclick="showVenus()"
         class="explore-img"
       />
 
