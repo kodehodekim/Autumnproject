@@ -6,6 +6,10 @@ let imgCtn2 = document.querySelector("#imgCtn img:nth-child(3)");
 let imgCtn3 = document.querySelector("#imgCtn img:nth-child(4)");
 let imgCtn4 = document.querySelector("#imgCtn img:nth-child(5)");
 let imgCtn5 = document.querySelector("#imgCtn img:nth-child(6)");
+let imgCtn6 = document.querySelector("#imgCtn img:nth-child(7)");
+let imgCtn7 = document.querySelector("#imgCtn img:nth-child(8)");
+let imgCtn8 = document.querySelector("#imgCtn img:nth-child(9)");
+let imgCtn9 = document.querySelector("#imgCtn img:nth-child(10)");
 
 function callanimation() {
   imgCtn1.style.animation = "display 10s infinite";
@@ -17,6 +21,14 @@ function callanimation() {
   imgCtn4.style.animationDelay = "6s";
   imgCtn5.style.animation = "display 10s infinite";
   imgCtn5.style.animationDelay = "8s";
+  imgCtn6.style.animation = "display 10s infinite";
+  imgCtn6.style.animationDelay = "10s";
+  imgCtn7.style.animation = "display 10s infinite";
+  imgCtn7.style.animationDelay = "12s";
+  imgCtn8.style.animation = "display 10s infinite";
+  imgCtn8.style.animationDelay = "14s";
+  imgCtn9.style.animation = "display 10s infinite";
+  imgCtn9.style.animationDelay = "16s";
 }
 
 function callrevanimation() {
