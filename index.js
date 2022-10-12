@@ -77,3 +77,6 @@ function showMercury() {
 function showUranus() {
   window.location.href = "planets.html#uranus";
 }
+function showNeptune() {
+  window.location.href = "planets.html#neptune";
+}
