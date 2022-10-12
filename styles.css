@@ -221,7 +221,7 @@ button {
   /*left: calc(50% - 100px);*/
   left: 550px;
   opacity: 0;
-  animation: displayrev 18s infinite;
+  animation: display 18s infinite;
 }
 
 /*#img1 {
