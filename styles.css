@@ -9,7 +9,8 @@ body {
 .navigationContainer {
   display: flex;
   height: 50px;
-  width: 1250px;
+  /*width: 1250px;*/
+  width: auto;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 10px;
