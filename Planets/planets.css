@@ -54,14 +54,6 @@ a {
   background-attachment: fixed;
 }
 
-.collapsed {
-  min-height: 35%;
-}
-
-.expanded {
-  min-height: 90%;
-}
-
 /* Settings for individial parallax images */
 .planet1 {
   background-image: url("img/shot-by-cerqueira-0o_GEzyargo-unsplash\ \(1\).jpg");
@@ -123,10 +115,10 @@ a {
 }
 
 /* Eggs */
-footer:hover {
+.egg:hover {
   position: relative;
 }
-footer:hover:after {
+.egg:hover:after {
   content: url(img/egg1.png);
   display: block;
   position: absolute;
