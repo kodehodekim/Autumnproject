@@ -10,14 +10,13 @@ body {
   margin: auto;
 }
 
-img {
+.planetimg {
   height: 300px;
   width: 300px;
   margin: 0px;
-  border: 1px solid white;
-}
-.container {
-  display: block;
+  /*border: 1px solid white;*/
+  margin: 20px;
+  box-shadow: 10px 10px #132030;
   justify-content: center;
   align-items: center;
 }
@@ -26,20 +25,27 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 300px;
-  width: 600px;
-  border: 3px solid white;
-  margin-left: 350px;
+  height: 400px;
+  width: 700px;
+  border: 1px solid white;
+  margin-left: 300px;
+  background-color: #29394d;
+  margin-top: 50px;
 }
 
-h2 {
-  margin-left: 600px;
-}
 p {
+  margin-top: 0px;
   margin-left: 10px;
-  padding-top: 20px;
+  padding-top: 0px;
   height: 200px;
   font-size: 15px;
+  margin-bottom: 100px;
+}
+
+p::first-line {
+  font-weight: bolder;
+  font-size: 30px;
+  justify-self: center;
 }
 button {
   background-color: #072742;
@@ -53,4 +59,9 @@ button {
 .gitimg {
   height: 20px;
   width: 20px;
+  margin-left: 10px;
+  box-shadow: 5px 5px #132030;
+}
+a {
+  color: burlywood;
 }
