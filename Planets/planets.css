@@ -42,7 +42,9 @@ a {
 .planet6,
 .planet7,
 .planet8,
-.planet9 {
+.planet9,
+.planet10 {
+  min-height: 40%;
   position: relative;
   opacity: 0.9;
   background-position: center;
@@ -51,50 +53,54 @@ a {
   background-attachment: fixed;
 }
 
+.collapsed {
+  min-height: 35%;
+}
+
+.expanded {
+  min-height: 90%;
+}
+
 /* Settings for individial parallax images */
 .planet1 {
-  background-image: url("img/thesun-unsplash.jpg");
+  background-image: url("img/shot-by-cerqueira-0o_GEzyargo-unsplash\ \(1\).jpg");
   min-height: 100%;
 }
 
 .planet2 {
-  background-image: url("img/mercury-unsplash.jpg");
-  min-height: 500px;
+  background-image: url("img/thesun-unsplash.jpg");
 }
 
 .planet3 {
-  background-image: url("img/Venus-Wikipedia.png");
-  min-height: 500px;
+  background-image: url("img/mercury-unsplash.jpg");
 }
 
 .planet4 {
-  background-image: url("img/earth-unsplash.jpg");
-  min-height: 500px;
+  background-image: url("img/Venus-Wikipedia.png");
 }
 
 .planet5 {
-  background-image: url("img/mars-unsplash.jpg");
-  min-height: 500px;
+  background-image: url("img/earth-unsplash.jpg");
 }
 
 .planet6 {
-  background-image: url("img/jupiter-wikipedia.jpg");
-  min-height: 500px;
+  background-image: url("img/mars-unsplash.jpg");
 }
 
 .planet7 {
-  background-image: url("img/saturn-unsplash.jpg");
-  min-height: 500px;
+  background-image: url("img/jupiter-wikipedia.jpg");
 }
 
 .planet8 {
-  background-image: url("img/Uranus-Nasa-Wikipedia.jpg");
-  min-height: 500px;
+  background-image: url("img/saturn-unsplash.jpg");
 }
 
 .planet9 {
-  background-image: url("img/nuptun-unsplash.jpg");
-  min-height: 500px;
+  background-image: url("img/Uranus-Nasa-Wikipedia.jpg");
+}
+
+.planet10 {
+  background-image: url("img/neptun-unsplash.jpg");
 }
 
 /* Text section */
@@ -114,16 +120,6 @@ a {
     rgba(63, 63, 63, 1) 100%
   );
 }
-
-/* .section:hover {
-  background: rgb(63, 63, 63);
-  background: linear-gradient(
-    90deg,
-    rgba(63, 63, 63, 1) 8%,
-    rgba(15, 15, 15, 1) 52%,
-    rgba(63, 63, 63, 1) 92%
-  );
-} */
 
 /* Eggs */
 footer:hover {
@@ -174,7 +170,7 @@ footer:hover:after {
   .planet6,
   .planet7,
   .planet8,
-  .planet9 {
+  .planet10 {
     background-attachment: scroll;
   }
 }
