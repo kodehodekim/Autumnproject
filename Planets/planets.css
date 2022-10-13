@@ -1,6 +1,7 @@
 body,
 html {
   height: 100%;
+  width: auto;
   margin: 0;
   font-size: 16px;
   font-family: "Iceberg", cursive;
@@ -64,7 +65,7 @@ a {
 /* Settings for individial parallax images */
 .planet1 {
   background-image: url("img/shot-by-cerqueira-0o_GEzyargo-unsplash\ \(1\).jpg");
-  min-height: 100%;
+  min-height: 80%;
 }
 
 .planet2 {
@@ -100,7 +101,7 @@ a {
 }
 
 .planet10 {
-  background-image: url("img/neptun-unsplash.jpg");
+  background-image: url("img/nuptun-unsplash.jpg");
 }
 
 /* Text section */
