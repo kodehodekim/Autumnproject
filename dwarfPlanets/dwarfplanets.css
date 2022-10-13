@@ -1,6 +1,10 @@
 body,
 html {
   height: 100%;
+<<<<<<< Updated upstream
+=======
+  width: auto;
+>>>>>>> Stashed changes
   margin: 0;
   font-size: 16px;
   font-family: "Iceberg", cursive;
@@ -9,7 +13,17 @@ html {
 }
 
 footer {
+<<<<<<< Updated upstream
   background-color: #3f3f3f;
+=======
+  background: rgb(63, 63, 63);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 63, 63, 1) 0%,
+    rgba(15, 15, 15, 1) 50%,
+    rgba(63, 63, 63, 1) 100%
+  );
+>>>>>>> Stashed changes
   float: bottom;
   border-top: 1px solid #00000054;
   color: #ddd;
@@ -28,11 +42,25 @@ a {
 }
 
 /* Settings for all parallax images */
+<<<<<<< Updated upstream
 .dplanet1,
 .dplanet2,
 .dplanet3,
 .dplanet4,
 .dplanet5 {
+=======
+.planet1,
+.planet2,
+.planet3,
+.planet4,
+.planet5,
+.planet6,
+.planet7,
+.planet8,
+.planet9,
+.planet10 {
+  min-height: 40%;
+>>>>>>> Stashed changes
   position: relative;
   opacity: 0.9;
   background-position: center;
@@ -41,6 +69,7 @@ a {
   background-attachment: fixed;
 }
 
+<<<<<<< Updated upstream
 /* Settings for individial parallax images */
 .dplanet1 {
   background-image: url("img/plutoCharon-nasa.jpg");
@@ -65,17 +94,93 @@ a {
 .dplanet5 {
   background-image: url("img/ceres-nasa.jpg");
   min-height: 500px;
+=======
+.collapsed {
+  min-height: 35%;
+}
+
+.expanded {
+  min-height: 90%;
+}
+
+/* Settings for individial parallax images */
+.planet1 {
+  background-image: url("img/shot-by-cerqueira-0o_GEzyargo-unsplash\ \(1\).jpg");
+  min-height: 80%;
+}
+
+.planet2 {
+  background-image: url("img/thesun-unsplash.jpg");
+}
+
+.planet3 {
+  background-image: url("img/mercury-unsplash.jpg");
+}
+
+.planet4 {
+  background-image: url("img/Venus-Wikipedia.png");
+}
+
+.planet5 {
+  background-image: url("img/earth-unsplash.jpg");
+}
+
+.planet6 {
+  background-image: url("img/mars-unsplash.jpg");
+}
+
+.planet7 {
+  background-image: url("img/jupiter-wikipedia.jpg");
+}
+
+.planet8 {
+  background-image: url("img/saturn-unsplash.jpg");
+}
+
+.planet9 {
+  background-image: url("img/Uranus-Nasa-Wikipedia.jpg");
+}
+
+.planet10 {
+  background-image: url("img/nuptun-unsplash.jpg");
+>>>>>>> Stashed changes
 }
 
 /* Text section */
 .section {
   text-align: center;
   padding: 15px 55px;
+<<<<<<< Updated upstream
   background-color: #3f3f3f;
+=======
+  /* background-color: #3f3f3f; */
+>>>>>>> Stashed changes
   color: #ddd;
   margin: -10px;
   line-height: 1.1;
   font-style: italic;
+<<<<<<< Updated upstream
+=======
+  background: rgb(63, 63, 63);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 63, 63, 1) 0%,
+    rgba(15, 15, 15, 1) 50%,
+    rgba(63, 63, 63, 1) 100%
+  );
+}
+
+/* Eggs */
+footer:hover {
+  position: relative;
+}
+footer:hover:after {
+  content: url(img/egg1.png);
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: -550px;
+>>>>>>> Stashed changes
 }
 
 /* Header text for images */
@@ -107,11 +212,23 @@ a {
 }
 /* max width on images */
 @media (max-width: 568px) {
+<<<<<<< Updated upstream
   .dplanet1,
   .dplanet2,
   .dplanet3,
   .dplanet4,
   .dplanet5 {
+=======
+  .planet1,
+  .planet2,
+  .planet3,
+  .planet4,
+  .planet5,
+  .planet6,
+  .planet7,
+  .planet8,
+  .planet10 {
+>>>>>>> Stashed changes
     background-attachment: scroll;
   }
 }
