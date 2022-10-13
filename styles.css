@@ -1,7 +1,8 @@
 body {
   background-image: url("Images/image1final.jpg");
-  max-height: 2000px;
-  background-size: 100% auto;
+  /*max-height: 2000px;*/
+  background-size: 100% 110%;
+
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -127,7 +128,6 @@ a {
 img {
   height: 100px;
   width: 100px;
-
   background-color: transparent;
 }
 .pre {
@@ -140,11 +140,11 @@ button {
   border-radius: 50%;
 }
 #btn1 {
-  margin-left: 300px;
+  margin-left: 400px;
   z-index: 10;
 }
 #btn2 {
-  margin-right: 300px;
+  margin-right: 400px;
   z-index: 10;
 }
 
