@@ -1,6 +1,5 @@
 body {
   background-color: #132030;
-
   background-size: 100% 110%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -14,6 +13,8 @@ body {
 img {
   height: 300px;
   width: 300px;
+  margin: 0px;
+  border: 1px solid white;
 }
 .container {
   display: block;
@@ -25,16 +26,20 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 400px;
+  height: 300px;
   width: 600px;
-  border: 1px solid white;
+  border: 3px solid white;
   margin-left: 350px;
 }
+
 h2 {
   margin-left: 600px;
 }
 p {
-  margin-top: 0px;
+  margin-left: 10px;
+  padding-top: 20px;
+
+  height: 200px;
   font-size: 15px;
 }
 button {

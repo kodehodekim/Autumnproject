@@ -1,6 +1,8 @@
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
 
+/*Triggering the animation*/
+
 let imgCtn1 = document.querySelector("#imgCtn img:nth-child(2)");
 let imgCtn2 = document.querySelector("#imgCtn img:nth-child(3)");
 let imgCtn3 = document.querySelector("#imgCtn img:nth-child(4)");
@@ -52,6 +54,8 @@ function callrevanimation() {
   imgCtn9.style.animation = "displayrev 18s infinite";
   imgCtn9.style.animationDelay = "16s";
 }
+
+/*Function call for sections of parallax page*/
 
 function showEarth() {
   window.location.href = "planets.html#earth";
