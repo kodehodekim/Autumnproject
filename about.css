@@ -38,13 +38,17 @@ h2 {
 p {
   margin-left: 10px;
   padding-top: 20px;
-
   height: 200px;
   font-size: 15px;
 }
 button {
-  background-color: #16456c;
+  background-color: #072742;
   color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid white;
 }
 .gitimg {
   height: 20px;
