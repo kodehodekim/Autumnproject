@@ -28,10 +28,18 @@ footer {
 
 a {
   color: #fff;
+  font-size: 12px;
 }
 
-.navbar {
-  float: left;
+/* Home button settings */
+button {
+  background-color: #072742;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid white;
 }
 
 /* Settings for all parallax images */
@@ -65,7 +73,7 @@ a {
 /* Settings for individial parallax images */
 .planet1 {
   background-image: url("img/dwarf_planets2.jpeg");
-  min-height: 80%;
+  min-height: 70%;
 }
 
 .planet2 {
@@ -118,9 +126,35 @@ a {
   height: 200px;
   align-items: center;
   opacity: 0.9;
+  animation: fade 1.5s;
   border-radius: 40%;
   left: -555px;
   top: -270px;
+}
+
+button:hover {
+  position: relative;
+}
+
+button:hover:after {
+  content: url(img/egg3mf.png);
+  display: block;
+  position: absolute;
+  align-items: center;
+  opacity: 0.9;
+  animation: fade 1.5s;
+  border-radius: 40%;
+  left: -30px;
+  top: 70px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Header text for images */

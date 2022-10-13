@@ -30,8 +30,15 @@ a {
   color: #fff;
 }
 
-.navbar {
-  float: left;
+/* Home button settings */
+button {
+  background-color: #072742;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid white;
 }
 
 /* Settings for all parallax images */
@@ -57,7 +64,7 @@ a {
 /* Settings for individial parallax images */
 .planet1 {
   background-image: url("img/shot-by-cerqueira-0o_GEzyargo-unsplash\ \(1\).jpg");
-  min-height: 80%;
+  min-height: 60%;
 }
 
 .planet2 {
@@ -114,7 +121,7 @@ a {
   );
 }
 
-/* Eggs */
+/* Eggs giggidy */
 .egg:hover {
   position: relative;
 }
@@ -122,8 +129,18 @@ a {
   content: url(img/egg1.png);
   display: block;
   position: absolute;
-  left: 0px;
-  top: -550px;
+  animation: fade 1.5s;
+  right: -110px;
+  top: -574px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Header text for images */

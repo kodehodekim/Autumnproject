@@ -1,3 +1,11 @@
+/* Function for Home \ Git button */
+function gotoHome() {
+  window.location.href = "index.html";
+}
+function gotoGit() {
+  window.location.href = "index.html";
+}
+
 /* Expand and collapse the images */
 let planetIsCollapsed = true;
 
