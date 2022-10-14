@@ -53,25 +53,29 @@ a {
 .menu {
   display: block;
   justify-content: center;
+  text-align: center;
   align-items: center;
   margin-left: 30px;
   margin-right: 90px;
   margin-top: 10px;
   /*border: 1px solid white;*/
-  height: 150px;
+  height: 600px;
   width: 150px;
+  /*border: 1px solid white;*/
+  z-index: 2;
 }
 .dropdown-content {
   display: none;
   list-style: none;
-  background-color: transparent;
   margin-top: 30px;
+  /*border: 1px solid white;*/
+  /* z-index: 1; */
 }
 .li-menu {
   align-items: center;
   margin-top: 10px;
   margin-left: 0px;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
   border-radius: 5px;
   width: 150px;
   height: 20px;
@@ -141,11 +145,11 @@ button {
 }
 #btn1 {
   margin-left: 400px;
-  z-index: 10;
+  /* z-index: 10; */
 }
 #btn2 {
   margin-right: 400px;
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 /*Animation of planets*/
@@ -207,7 +211,7 @@ button {
 }
 
 .pic-ctn {
-  position: relative;
+  /* position: relative; */
   width: 100vw;
   height: 200px;
   /* margin-top: 15vh;*/
