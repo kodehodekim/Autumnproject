@@ -2,12 +2,24 @@ body {
   background-color: #132030;
   background-size: 100% 110%;
   background-repeat: no-repeat;
+  font-family: "Iceberg", cursive;
   overflow: hidden;
   color: white;
   display: block;
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+footer {
+  background: #132030;
+  float: bottom;
+  border-top: 1px solid #00000054;
+  color: #ddd;
+  margin-top: 40px;
+  height: 60px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .planetimg {
@@ -26,11 +38,12 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 400px;
-  width: 700px;
+  width: 800px;
+  margin-left: 400px;
   border: 1px solid white;
-  margin-left: 300px;
   background-color: #29394d;
   margin-top: 50px;
+  text-align: left;
 }
 
 p {
@@ -54,6 +67,7 @@ button {
   margin-top: 20px;
   height: 30px;
   width: 60px;
+  font-family: "Iceberg", cursive;
   border: 1px solid white;
 }
 .gitimg {
