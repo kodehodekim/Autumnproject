@@ -11,37 +11,60 @@
 <body>
     <main class="main-form">
         <section class="left-form">
-            <h1>🪐Welcome to our planet🪐</h1>
-            <img src="earth.png" alt=" the planet image">
+            <h1>Welcome to our planet🪐</h1>
+
+            <div class="contact-info"></div>            
+            <p class="text">Would you like to know more about us? <br> Call now or leave your details and we’ll get in touch.</p>
+            </div> 
+
+            <div class="information">
+                <img src="adress.png" class="icon" alt="google maps icon">
+                <p>Kvitsøygata 30, 4014 Stavanger</p>
+            </div>
+
+            <div class="information">
+                <img src="email.png" class="icon" alt="email icon">
+                <p>loren@ipsum.no</p>
+            </div>
+
+            <div class="information">
+                <img src="phone.png" class="icon" alt="phone icon">
+                <p> 47 - 1234 5678</p>
+            </div>
+
         </section>
 
-        <section class="right-form">
-            <h1>Join us</h1>        
+        <div class="right-form">
+            <h1>Contact us</h1>        
 
             <div class="textfield">
                 <label for="fname">First name</label>
-                <input type="text" name="firstname" id="ifirstname" placeholder="your first name" required> 
+                <input type="text" name="firstname" id="ifirstname" placeholder="your first name" autocomplete="fname" required> 
             </div>
 
             <div class="textfield"> <br>
                 <label for="lname">Last name</label>
-                <input type="text" name="lastname" id="ilastname"  placeholder="your last name" required>
+                <input type="text" name="lastname" id="ilastname" placeholder="your last name" autocomplete="lname" required>
             </div>
 
             <div class="textfield"> <br>
                 <label for="iemail">Email</label> 
-                <input type="text" name="email" id="iemail" required value="@" required>
+                <input type="text" name="email" id="iemail" value="@" autocomplete="email" required>
             </div>
 
             <div class="textfield"> 
                 <label for="message">Message us</label>
-                <textarea name="message" cols="81" rows="6"></textarea> 
+                <textarea name="message" cols="80" rows="6" required></textarea> 
             </div>
                               
             <button class="btn-submit">submit</button>
 
-        </section>
+        </div>
     </main>                     
             <script src="app.js"></script>   
 </body>
 </html>
+        
+        
+        
+        
