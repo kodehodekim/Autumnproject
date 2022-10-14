@@ -32,7 +32,7 @@ body {
 }
 
 .left-form > p {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     color: #ffeedd;    
     margin-top: 0px;
     justify-content:right;
@@ -140,10 +140,6 @@ body {
 
 .btn-submit:hover {
     background-color: #08b14b;   
-}
-
-.left-form-image {
-    width: 35vw;     
 }
 
 
