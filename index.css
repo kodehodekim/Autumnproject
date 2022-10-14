@@ -39,10 +39,6 @@ footer {
   margin-left: 800px;
 }
 
-/* .navigationContainer:hover {
-  background-color: #3c74a1;
-} */
-
 a {
   color: white;
   text-decoration: none;
@@ -73,6 +69,20 @@ a {
   list-style: none;
   margin-top: 30px;
 }
+#planets {
+  text-align: left;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 0px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 150px;
+  height: 20px;
+  background-color: #3c74a1;
+  color: bold white;
+  padding-bottom: 5px;
+}
+
 .li-menu {
   align-items: center;
   margin-top: 10px;
@@ -83,6 +93,7 @@ a {
   height: 20px;
   background-color: #3c74a1;
   color: bold white;
+  padding-bottom: 5px;
 }
 .menu:hover .dropdown-content {
   display: block;
