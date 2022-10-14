@@ -3,7 +3,7 @@ function gotoHome() {
   window.location.href = "index.html";
 }
 function gotoGit() {
-  window.location.href = "index.html";
+  window.location.href = "https://github.com/kodehodekim/Autumnproject/";
 }
 
 /* Expand and collapse the images */
