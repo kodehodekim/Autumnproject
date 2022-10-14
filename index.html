@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iceberg&family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div class="navigationContainer">
+      <div class="menu">
+        <p class="p-menu"></p>
+        <p class="p-menu"></p>
+        <p class="p-menu"></p>
+
+        <div class="dropdown-content">
+          <li class="li-menu"><a href="planets.html#sun">Sun</a></li>
+          <li class="li-menu"><a href="planets.html#mercury">Mercury</a></li>
+          <li class="li-menu"><a href="planets.html#venus">Venus</a></li>
+          <li class="li-menu"><a href="planets.html#earth">Earth</a></li>
+          <li class="li-menu"><a href="planets.html#mars">Mars</a></li>
+          <li class="li-menu"><a href="planets.html#jupiter">Jupiter</a></li>
+          <li class="li-menu"><a href="planets.html#saturn">Saturn</a></li>
+          <li class="li-menu"><a href="planets.html#uranus">Uranus</a></li>
+          <li class="li-menu"><a href="planets.html#neptune">Neptune</a></li>
+        </div>
+      </div>
+
+      <ul class="navigation">
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="https://jobloop.no/kodehode-modellen">KodeHode</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="p-main">Explore Our Solar System</p>
+      <p class="p-sub">
+        Get more interesting facts about our solar system by exploring the site
+      </p>
+    </div>
+
+    <div class="pic-ctn" id="imgCtn">
+      <button id="btn1" onclick="callrevanimation()">
+        <img src="Images/previous (1) - Copy.png" class="pre" />
+      </button>
+
+      <img
+        id="img4"
+        src="Images/sun.png"
+        alt=""
+        onclick="showSun()"
+        class="explore-img"
+      />
+      <img
+        id="img7"
+        src="Images/mercury-unsplash-removebg-preview.png"
+        alt=""
+        onclick="showMercury()"
+        class="explore-img"
+      />
+      <img
+        id="img9"
+        src="Images/venus.png"
+        alt=""
+        onclick="showVenus()"
+        class="explore-img"
+      />
+      <img
+        id="img1"
+        src="Images/earth.png"
+        alt=""
+        onclick="showEarth()"
+        class="explore-img"
+      />
+      <img
+        id="img5"
+        src="Images/marsnew.png"
+        onclick="showMars()"
+        alt=""
+        class="explore-img"
+      />
+      <img
+        id="img6"
+        src="Images/jupiter-wikipedia-removebg-preview.png"
+        onclick="showJupiter()"
+        alt=""
+        class="explore-img"
+      />
+      <img
+        id="img2"
+        src="Images/saturn.png"
+        onclick="showSaturn()"
+        alt=""
+        class="explore-img"
+      />
+      <img
+        id="img3"
+        src="Images/uranus.png"
+        alt=""
+        onclick="showUranus()"
+        class="explore-img"
+      />
+      <img
+        id="img8"
+        src="Images/nuptun-unsplash-removebg-preview.png"
+        alt=""
+        onclick="showNeptune()"
+        class="explore-img"
+      />
+      <button onclick="callanimation()" id="btn2">
+        <img src="Images/previous (2) - Copy.png" class="pre" />
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

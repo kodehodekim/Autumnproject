@@ -1,0 +1,186 @@
+body,
+html {
+  height: 100%;
+  width: auto;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Iceberg", cursive;
+  line-height: 1.8em;
+  color: #666;
+}
+
+footer {
+  background: rgb(63, 63, 63);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 63, 63, 1) 0%,
+    rgba(15, 15, 15, 1) 50%,
+    rgba(63, 63, 63, 1) 100%
+  );
+  float: bottom;
+  border-top: 1px solid #00000054;
+  color: #ddd;
+  height: 60px;
+  font-size: 10px;
+  font-family: "Iceberg", cursive;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+/* Home button settings */
+button {
+  background-color: #072742;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid white;
+}
+
+/* Settings for all parallax images */
+.planet1,
+.planet2,
+.planet3,
+.planet4,
+.planet5,
+.planet6,
+.planet7,
+.planet8,
+.planet9,
+.planet10 {
+  min-height: 40%;
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Settings for individial parallax images */
+.planet1 {
+  background-image: url("img/shot-by-cerqueira-0o_GEzyargo-unsplash\ \(1\).jpg");
+  min-height: 60%;
+}
+
+.planet2 {
+  background-image: url("img/thesun-unsplash.jpg");
+}
+
+.planet3 {
+  background-image: url("img/mercury-unsplash.jpg");
+}
+
+.planet4 {
+  background-image: url("img/Venus-Wikipedia.png");
+}
+
+.planet5 {
+  background-image: url("img/earth-unsplash.jpg");
+}
+
+.planet6 {
+  background-image: url("img/mars-unsplash.jpg");
+}
+
+.planet7 {
+  background-image: url("img/jupiter-wikipedia.jpg");
+}
+
+.planet8 {
+  background-image: url("img/saturn-unsplash.jpg");
+}
+
+.planet9 {
+  background-image: url("img/Uranus-Nasa-Wikipedia.jpg");
+}
+
+.planet10 {
+  background-image: url("img/nuptun-unsplash.jpg");
+}
+
+/* Text section */
+.section {
+  text-align: center;
+  padding: 15px 55px;
+  /* background-color: #3f3f3f; */
+  color: #ddd;
+  margin: -10px;
+  line-height: 1.1;
+  font-style: italic;
+  background: rgb(63, 63, 63);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 63, 63, 1) 0%,
+    rgba(15, 15, 15, 1) 50%,
+    rgba(63, 63, 63, 1) 100%
+  );
+}
+
+/* Eggs giggidy */
+.egg:hover {
+  position: relative;
+}
+.egg:hover:after {
+  content: url(img/egg1.png);
+  display: block;
+  position: absolute;
+  animation: fade 1.5s;
+  right: -110px;
+  top: -574px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Header text for images */
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #282e34;
+}
+
+/* More header text on images */
+.ptext .border {
+  color: #fff;
+  padding: 20px;
+  font-family: "Iceberg", cursive;
+  font-weight: 400;
+  font-size: 50px;
+  text-shadow: 3px 4px black;
+}
+
+/* transparant border around the text paragraphs */
+.ptext .border.trans {
+  background-color: transparent;
+}
+/* max width on images */
+@media (max-width: 568px) {
+  .planet1,
+  .planet2,
+  .planet3,
+  .planet4,
+  .planet5,
+  .planet6,
+  .planet7,
+  .planet8,
+  .planet10 {
+    background-attachment: scroll;
+  }
+}
