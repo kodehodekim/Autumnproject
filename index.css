@@ -63,18 +63,15 @@ a {
   align-items: center;
   margin-left: 120px;
   margin-top: 10px;
-  /*border: 1px solid white;*/
+
   height: 600px;
   width: 150px;
-  /*border: 1px solid white;*/
   z-index: 2;
 }
 .dropdown-content {
   display: none;
   list-style: none;
   margin-top: 30px;
-  /*border: 1px solid white;*/
-  /* z-index: 1; */
 }
 .li-menu {
   align-items: center;
