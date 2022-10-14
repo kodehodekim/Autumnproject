@@ -3,5 +3,5 @@ function gotoHome() {
 }
 
 function gotoGit() {
-  window.location.href = "index.html";
+  window.location.href = "https://github.com/kodehodekim/Autumnproject/";
 }
