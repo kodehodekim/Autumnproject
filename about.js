@@ -1,3 +1,4 @@
+/* Function for the Home button */
 function gotoHome() {
   window.location.href = "index.html";
 }

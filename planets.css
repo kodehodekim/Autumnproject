@@ -31,14 +31,17 @@ a {
 }
 
 /* Home button settings */
-button {
-  background-color: #072742;
+.button {
+  position: relative;
+  background: #201b2c;
   color: white;
-  margin-left: 20px;
-  margin-top: 20px;
-  height: 30px;
-  width: 60px;
+  height: 40px;
+  width: 80px;
+  margin-left: 50px;
+  top: 20px;
+  font-family: "Iceberg", cursive;
   border: 1px solid white;
+  padding: 10px;
 }
 
 /* Settings for all parallax images */

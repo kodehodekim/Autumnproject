@@ -67,19 +67,22 @@ a {
   align-items: center;
   margin-left: 120px;
   margin-top: 10px;
-  /*border: 1px solid white;*/
+
   height: 600px;
   width: 150px;
-  /*border: 1px solid white;*/
   z-index: 2;
 }
 .dropdown-content {
   display: none;
   list-style: none;
+<<<<<<< HEAD
   margin-top: 0px;
   position: absolute;
   /*border: 1px solid white;*/
   /* z-index: 1; */
+=======
+  margin-top: 30px;
+>>>>>>> de51b9c51c2bce9c77c084be999c6e1edc333518
 }
 .planets {
   /* text-align: left;

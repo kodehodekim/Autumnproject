@@ -12,15 +12,16 @@ body {
   align-items: center;
 }
 
-button {
+.button {
+  position: relative;
   background: #201b2c;
   color: white;
-  margin-left: 20px;
-  margin-top: 20px;
-  height: 30px;
-  width: 60px;
+  height: 40px;
+  width: 80px;
+  top: 20px;
   font-family: "Iceberg", cursive;
   border: 1px solid white;
+  padding: 10px;
 }
 
 /* the left form area */
@@ -135,7 +136,6 @@ button {
 
 .btn-submit {
   margin-left: -20px;
-  /* padding: 15px 30px; */
   border: none;
   border-radius: 28px;
   font-size: 14px;
@@ -146,7 +146,7 @@ button {
 }
 
 .btn-submit:hover {
-  background-color: #e3bfa7;
+  background-color: #44ff00;
 }
 
 .left-form-image {
