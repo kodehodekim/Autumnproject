@@ -42,6 +42,14 @@ footer {
 a {
   color: white;
   text-decoration: none;
+  align-self: center;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.list1.li-menu a {
+  padding-bottom: 10px;
+  text-align: center;
+  height: 20px;
 }
 
 .p-menu {
@@ -68,34 +76,81 @@ a {
   display: none;
   list-style: none;
   margin-top: 30px;
+  position: absolute;
 }
-#planets {
-  text-align: left;
+.planets {
   align-items: center;
-  margin-top: 10px;
+  text-align: center;
+  margin-top: 0px;
   margin-left: 0px;
-  border: 1px solid white;
-  border-radius: 5px;
-  width: 150px;
+  border-bottom: 1px solid white;
+  /*border-radius: 5px;*/
+  width: 100px;
   height: 20px;
-  background-color: #3c74a1;
+  background-color: #072742;
   color: bold white;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  display: block;
+  position: relative;
+}
+.dwarfplanets {
+  position: relative;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  border-bottom: 1px solid white;
+  /* border-radius: 5px;*/
+  width: 100px;
+  height: 20px;
+  background-color: #072742;
+  color: bold white;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  display: block;
+}
+.list1 {
+  position: absolute;
+  display: none;
+  margin-left: 110px;
+  top: 0;
+  text-align: center;
+}
+
+.list2 {
+  position: absolute;
+  display: none;
+  margin-left: 110px;
+  top: 0;
+  text-align: center;
 }
 
 .li-menu {
   align-items: center;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 0px;
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   border-radius: 5px;
   width: 150px;
   height: 20px;
-  background-color: #3c74a1;
+  background-color: #072742;
   color: bold white;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 .menu:hover .dropdown-content {
+  display: block;
+}
+.planets:focus-within .list1 {
+  display: block;
+}
+.planets:hover .list1 {
+  display: block;
+}
+.dwarfplanets:hover .list2 {
   display: block;
 }
 
